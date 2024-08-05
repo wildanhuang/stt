@@ -94,7 +94,8 @@ Rails.application.configure do
     #/.*\.sttbaptisbandung\.ac\.id/ # Allow requests from subdomains like `www.example.com`
   ]
   
-  # config.hosts << "localhost"
+  config.hosts << "localhost"
+  config.hosts << "sttbaptisbandung.ac.id"
   # Skip DNS rebinding protection for the default health check endpoint.
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
 end
