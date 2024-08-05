@@ -23,7 +23,10 @@ module Stt
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.hosts << "sttbaptisbandung.ac.id"
-    config.force_ssl = true
+    # config.hosts << "local-ubuntu:3000"
+    # config.hosts << "localhost:3000"
+    # config.hosts << "sttbaptisbandung.ac.id"
+    # config.hosts << "www.sttbaptisbandung.ac.id"
+    # config.force_ssl = true
   end
 end
