@@ -80,4 +80,5 @@ Rails.application.configure do
   config.hosts << "localhost"
   config.hosts << "sttbaptisbandung.ac.id"
   # config.hosts << "www.sttbaptisbandung.ac.id"
+  config.hosts = nil
 end
