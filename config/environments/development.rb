@@ -77,6 +77,7 @@ Rails.application.configure do
 
   config.hosts << "local-ubuntu:3000"
   config.hosts << "localhost:3000"
-  config.hosts << "sttbaptisbandung.ac.id"
-  config.hosts << "www.sttbaptisbandung.ac.id"
+  config.hosts << "localhost"
+  # config.hosts << "sttbaptisbandung.ac.id"
+  # config.hosts << "www.sttbaptisbandung.ac.id"
 end
