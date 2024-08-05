@@ -25,7 +25,8 @@ module Stt
     # config.eager_load_paths << Rails.root.join("extras")
     # config.hosts << "local-ubuntu:3000"
     # config.hosts << "localhost:3000"
-    # config.hosts << "sttbaptisbandung.ac.id"
+    config.hosts << "sttbaptisbandung.ac.id"
+    # Rails.application.config.hosts << "sttbaptisbandung.ac.id"
     # config.hosts << "www.sttbaptisbandung.ac.id"
     # config.force_ssl = true
   end
