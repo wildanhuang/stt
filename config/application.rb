@@ -23,5 +23,6 @@ module Stt
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.hosts << "sttbaptisbandung.ac.id"
   end
 end
