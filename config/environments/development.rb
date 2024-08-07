@@ -75,7 +75,7 @@ Rails.application.configure do
   
   config.action_controller.raise_on_missing_callback_actions = true
 
-  # config.hosts << "local-ubuntu:3000"
+  config.hosts << "local-ubuntu:3000"
   config.hosts << "localhost:3000"
   config.hosts << "localhost"
   config.hosts << "sttbaptisbandung.ac.id"
