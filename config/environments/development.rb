@@ -72,12 +72,12 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
 
   # Raise error when a before_action's only/except options reference missing actions
-  # config.force_ssl = true
+  config.force_ssl = true
   config.action_controller.raise_on_missing_callback_actions = true
 
-  config.hosts << "local-ubuntu:3000"
+  # config.hosts << "local-ubuntu:3000"
   config.hosts << "localhost:3000"
   config.hosts << "localhost"
-  # config.hosts << "sttbaptisbandung.ac.id"
+  config.hosts << "sttbaptisbandung.ac.id"
   # config.hosts << "www.sttbaptisbandung.ac.id"
 end
