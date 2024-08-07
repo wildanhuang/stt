@@ -18,6 +18,7 @@ set :nvm_map_bins, %w{node npm yarn}
 set :rvm_type, :user                     # Defaults to: :auto
 set :rvm_ruby_version, '3.3.0@stt'
 set :passenger_restart_with_sudo, true
+set :passenger_restart_with_touch, false
 
 # Load the SCM plugin appropriate to your project:
 #
