@@ -16,7 +16,7 @@ set :nvm_map_bins, %w{node npm yarn}
 # set :rbenv_type, :user
 # set :rbenv_ruby, '3.3.0'
 set :rvm_type, :user                     # Defaults to: :auto
-set :rvm_ruby_version, '3.3.0'
+set :rvm_ruby_version, '3.3.0@stt'
 set :passenger_restart_with_sudo, true
 
 # Load the SCM plugin appropriate to your project:
